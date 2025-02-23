@@ -621,7 +621,7 @@ textarea:not([rows]) {
         height: 100%;
 
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
 
@@ -638,10 +638,21 @@ textarea:not([rows]) {
 
         margin-bottom: 2.5%;
     }
+    #work h3{
+        width: 100%;
+
+        margin: 0;
+        padding: 0;
+
+        font-family: var(--nadpis);
+        font-size: 1.5rem;
+
+        margin-bottom: 1%;
+    }
     #work aside{
         width: 30%;
         min-width: 350px;
-        margin: 1%;
+        margin: 1% 0;
     }
     #work figure{
         width: 100%;
